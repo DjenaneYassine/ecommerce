@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+    <div class="container h-screen bg-red-300">
+        <div {{react_component('LandingPage')}}></div>
+    </div>
+{% endblock %}
